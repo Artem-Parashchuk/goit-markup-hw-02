@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --main-text-color: #2e2f42;
+  --secondary-text-color: #434455;
+  --main-bg-color: #2e2f42;
+  --color-for-hover: #404bbf;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--main-color);
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+}
+.list {
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
+}
+/* ===============Header================ */
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  background: #fff;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  text-transform: uppercase;
+  letter-spacing: 0.54px;
+}
+.logo-text {
+  color: #4d5ae5;
+}
+.nav-link {
+  color: var(--main-text-color);
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 0.32px;
+}
+.nav-link:hover, 
+.nav-link:focus {
+    color: var(--color-for-hover);
+}
+.address {
+  font-style: normal;
+}
+.address-link {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--secondary-text-color);
+}
+.address-link:hover,
+.address-link:focus {
+    color: var(--color-for-hover);
+}
+/* ===============/Header================ */
+
+/* ================Hero================== */
+.hero {
+  background-color: var(--main-bg-color);
+}
+.hero-title {
+  color: #fff;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 1.12px;
+}
+.hero-btn {
+  color: #fff;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+/* ================/Hero================== */
+
+/* ================Company===============*/
+.company {
+  background-color: #fff;
+}
+.company-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+}
+.company-text {
+  font-size: 16px;
+  color: var(--secondary-text-color);
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+/* ================/Company===============*/
+
+/* ================Work==================*/
+.work {
+  background-color: #fff;
+}
+.work-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72;
+  text-transform: capitalize;
+}
+/* ================/Work==================*/
+
+/* ================Team==================*/
+.team {
+  background-color: #f4f4fd;
+}
+.team-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.team-subtitle {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1.2;
+  letter-spacing: 0.4px;
+}
+.team-text {
+  text-align: center;
+  color: var(--secondary-text-color);
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+/* ================/Team==================*/
+
+/* ================Footer==================*/
+.footer {
+  background-color: var(--main-bg-color);
+}
+.footer-logo {
+  color: #f4f4fd;
+}
+.footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: #f4f4fd;
+}
+/* ================/Footer==================*/
+
+/* ================Portfolio-btn================= */
+.category-btn {
+  border-radius: 4px;
+  border: 1px solid #e7e9fc;
+  background: #f4f4fd;
+  align-items: center;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  color: #4d5ae5;
+}
+.category-btn:hover,
+.category-btn:focus {
+  color: #fff;
+  background: var(--color-for-hover);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
+/* ================/Portfolio-btn================= */
+
+/* ================Gallery-list==================== */
+.gallery-item {
+  border: 1px solid #e7e9fc;
+  background: #fff;
+}
+.gallery-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+.gallery-text {
+  color: var(--secondary-text-color);
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+/* ================/Gallery-list==================== */
