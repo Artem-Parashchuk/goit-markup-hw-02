@@ -175,7 +175,6 @@ a {
 font-family: "Roboto", sans-serif;
   font-size: 16px;
   background: var(--color-grey);
-  align-items: center;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -201,6 +200,7 @@ font-family: "Roboto", sans-serif;
   letter-spacing: 0.4px;
 }
 .gallery-text {
+    color: var(--main-text-color);
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
