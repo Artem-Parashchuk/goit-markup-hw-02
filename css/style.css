@@ -28,7 +28,7 @@ a {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1.17;
   text-transform: uppercase;
   letter-spacing: 0.54px;
@@ -107,6 +107,9 @@ a {
 /* ================/Company===============*/
 
 /* ================Work==================*/
+.work {
+  background-color: #F4F4FD;
+}
 
 .work-title {
   color: var(--secondary-text-color);
@@ -114,8 +117,11 @@ a {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.72;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+.work-list-item {
+  background-color: #fff;
 }
 /* ================/Work==================*/
 
@@ -141,14 +147,40 @@ a {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 }
 .team-text {
   text-align: center;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 /* ================/Team==================*/
+/* ================Portfolio============== */
+.portfolio-item {
+  color: var(--secondary-text-color);
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.portfolio-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+
+/* ================/Portfolio============== */
 
 /* ================Footer==================*/
 .footer {
@@ -170,38 +202,4 @@ a {
 }
 /* ================/Footer==================*/
 
-/* ================Portfolio-btn================= */
-.category-btn {
-font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  background: var(--color-grey);
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: var(--color-btn-text);
-  cursor: pointer;
-}
-.category-btn:hover,
-.category-btn:focus {
-  color: #fff;
-  background: var(--color-for-hover);
-}
-/* ================/Portfolio-btn================= */
 
-/* ================Gallery-list==================== */
-.gallery-item {
-  background: #fff;
-}
-.gallery-title {
-    color: var(--secondary-text-color);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.4px;
-}
-.gallery-text {
-    color: var(--main-text-color);
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-/* ================/Gallery-list==================== */
